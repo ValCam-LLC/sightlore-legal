@@ -1,8 +1,7 @@
 # Sightlore legal documents
 
-Public source for Sightlore's **Terms of Service** and **Privacy Policy**,
-published via GitHub Pages.
+Terms of Service and Privacy Policy for **Sightlore**, an app by ValCam LLC,
+published via GitHub Pages:
 
-The canonical copies live in the private app repo
-(`Sightlore/Resources/Legal/`) and are synced here — edit them there, not in
-this repo.
+- Terms of Service — <https://valcam-llc.github.io/sightlore-legal/terms/>
+- Privacy Policy — <https://valcam-llc.github.io/sightlore-legal/privacy/>

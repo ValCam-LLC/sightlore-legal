@@ -14,7 +14,7 @@ in plain language, what information the app collects, how it is used, and the
 choices you have. ValCam LLC is the **controller** of your personal
 information.
 
-Questions or requests: **c625v12@gmail.com** — ValCam LLC, **[MAILING
+Questions or requests: **valcamllc@gmail.com** — ValCam LLC, **[MAILING
 ADDRESS]**.
 
 ## The short version
@@ -145,7 +145,7 @@ Commission's **Standard Contractual Clauses** for these transfers.
 ## Retention and deletion
 
 - **Delete a tour**: deleting a tour in the app removes its records and photos from our servers, typically within 30 days.
-- **Delete your account**: Settings → Delete Account permanently deletes your sign-in account and erases the profile and tour data stored on your device. Server-stored tour history tied to the deleted account is removed, typically within 30 days, and purged from routine backups within 90 days. To request immediate removal, email **c625v12@gmail.com**.
+- **Delete your account**: Settings → Delete Account permanently deletes your sign-in account and erases the profile and tour data stored on your device. Server-stored tour history tied to the deleted account is removed, typically within 30 days, and purged from routine backups within 90 days. To request immediate removal, email **valcamllc@gmail.com**.
 - We keep data only as long as your account is active or as needed to provide the service and meet legal obligations. De-identified or aggregated data that can no longer identify you may be retained.
 
 ## Your rights
@@ -153,7 +153,7 @@ Commission's **Standard Contractual Clauses** for these transfers.
 You can access and edit your profile in the app at any time, and delete
 individual tours or your whole account in Settings. Depending on where you live,
 you may have additional rights described below. To exercise a right, email
-**c625v12@gmail.com**; we may need to verify your identity (for example, by
+**valcamllc@gmail.com**; we may need to verify your identity (for example, by
 confirming control of your account email) before acting, and we respond within
 the timeframes required by law. We honor these requests for all users
 regardless of location, and we won't discriminate against you for exercising
@@ -210,4 +210,4 @@ of Sightlore after a change means you accept the updated policy.
 
 ## Contact
 
-ValCam LLC — **c625v12@gmail.com** — **[MAILING ADDRESS]**
+ValCam LLC — **valcamllc@gmail.com** — **[MAILING ADDRESS]**

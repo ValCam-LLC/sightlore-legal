@@ -18,7 +18,7 @@ requires most disputes to be resolved by binding individual arbitration and
 waives your right to a jury trial and to participate in a class action. You may
 opt out of arbitration within 30 days.**
 
-Questions: **c625v12@gmail.com**
+Questions: **valcamllc@gmail.com**
 
 ## What Sightlore is
 
@@ -105,7 +105,7 @@ you photograph — some venues, events, and jurisdictions restrict photography.
 ## Reporting and content removal
 
 If you believe content or conduct on the Service violates these terms or your
-rights, email **c625v12@gmail.com** with details and we will review it. We may,
+rights, email **valcamllc@gmail.com** with details and we will review it. We may,
 but are not obligated to, monitor content, and we may remove or disable access
 to content, and suspend or terminate accounts, that we believe in good faith
 violate these terms or the law — with or without notice. We do not tolerate
@@ -126,7 +126,7 @@ perjury, that the information in your notice is accurate and that you are the
 owner or authorized to act on the owner's behalf.
 
 **Designated copyright agent:** ValCam LLC, Attn: DMCA Agent —
-**c625v12@gmail.com**, **[MAILING ADDRESS]**.
+**valcamllc@gmail.com**, **[MAILING ADDRESS]**.
 
 If your content is removed due to a notice, you may submit a counter-notice
 with the equivalent information required by 17 U.S.C. § 512(g). We terminate the
@@ -277,7 +277,7 @@ obligation survives termination of these terms.
 **Please read this section carefully — it affects your legal rights.**
 
 **Informal resolution first.** Before starting an arbitration or lawsuit, you
-agree to first contact us at **c625v12@gmail.com** and give us 60 days to
+agree to first contact us at **valcamllc@gmail.com** and give us 60 days to
 resolve the dispute informally. Most concerns can be resolved this way.
 
 **Binding arbitration.** If we can't resolve a dispute informally, you and
@@ -302,7 +302,7 @@ court** if it qualifies, and (2) seek injunctive or equitable relief in court to
 stop actual or threatened infringement or misuse of intellectual property.
 
 **30-day opt-out.** You can opt out of this arbitration agreement by emailing
-**c625v12@gmail.com** with your name and the email on your account, stating that
+**valcamllc@gmail.com** with your name and the email on your account, stating that
 you opt out of arbitration, **within 30 days** after you first accept these
 terms. Opting out won't affect any other part of these terms.
 
@@ -337,7 +337,7 @@ Contracts for the International Sale of Goods does not apply.
 - **Force majeure.** We are not liable for delays or failures caused by events
   beyond our reasonable control, including outages of third-party services.
 - **Notices.** We may provide notices to you by email or in the app; you may
-  send notices to us at **c625v12@gmail.com**.
+  send notices to us at **valcamllc@gmail.com**.
 - **Headings** are for convenience only and do not affect interpretation.
 
 ## Changes to these terms
@@ -349,4 +349,4 @@ you accept the updated terms.
 
 ## Contact
 
-ValCam LLC — **c625v12@gmail.com** — **[MAILING ADDRESS]**
+ValCam LLC — **valcamllc@gmail.com** — **[MAILING ADDRESS]**
