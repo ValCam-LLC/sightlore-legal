@@ -6,7 +6,7 @@ render_with_liquid: false
 
 # Sightlore Privacy Policy
 
-**Effective date: July 5, 2026**
+**Effective date: July 6, 2026**
 
 Sightlore is an iOS travel app made by **ValCam LLC**. It gives you AI-narrated
 commentary about landmarks you photograph during a tour. This policy explains,
