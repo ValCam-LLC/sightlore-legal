@@ -6,7 +6,7 @@ render_with_liquid: false
 
 # Sightlore Terms of Service
 
-**Effective date: July 6, 2026**
+**Effective date: July 14, 2026**
 
 These terms are an agreement between you and **ValCam LLC** ("we", "us", "our")
 for your use of the **Sightlore** iOS app and its backend services (the
@@ -41,17 +41,19 @@ your commentary is unique to you.
 
 ## Your account
 
-- You must provide a valid email address and keep your credentials secure. You
-  are responsible for all activity under your account, and for notifying us of
-  any unauthorized use.
+- You sign in with your Apple or Google account. Each sign-in method creates
+  its own separate Sightlore account — we cannot merge them — so use the same
+  method each time to keep your tours and subscription together. Keep your
+  Apple or Google account secure: you are responsible for all activity under
+  your Sightlore account, and for notifying us of any unauthorized use.
 - **Eligibility.** You must be at least 13 years old to use Sightlore. If you
   are under the age of majority where you live (typically 18), you may use
   Sightlore only with the involvement and consent of a parent or legal
   guardian, who agrees to these terms on your behalf and is responsible for
   your use.
 - You agree the information you provide is accurate, and you will keep it up to
-  date. One person, one account; don't impersonate anyone or create an account
-  for someone else without authority.
+  date. Don't impersonate anyone or create an account for someone else without
+  authority.
 - You can delete your account at any time in Settings → Delete Account. We may
   suspend or terminate accounts as described in "Suspension and termination."
 

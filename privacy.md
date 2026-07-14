@@ -6,7 +6,7 @@ render_with_liquid: false
 
 # Sightlore Privacy Policy
 
-**Effective date: July 6, 2026**
+**Effective date: July 14, 2026**
 
 Sightlore is an iOS travel app made by **ValCam LLC**. It gives you AI-narrated
 commentary about landmarks you photograph during a tour. This policy explains,
@@ -19,8 +19,9 @@ ADDRESS]**.
 
 ## The short version
 
-- We collect only what the app needs to work: your account email, the name and
-  tour preferences you enter, your tour photos, and tour locations.
+- We collect only what the app needs to work: the email address your sign-in
+  provider (Apple or Google) shares with us, the name and tour preferences you
+  enter, your tour photos, and tour locations.
 - Nearby-landmark discovery runs on your device using Apple Maps — that
   browsing never sends your location to our servers.
 - Photos you take during a tour are sent to our backend so an AI model can
@@ -34,9 +35,15 @@ ADDRESS]**.
 
 ### Account information
 
-When you create an account, we collect your **email address** and a password.
-Sign-in is handled by AWS Cognito (Amazon's identity service); your password is
-stored by Cognito, not by us, and we never see it.
+You sign in with your **Apple or Google account** — there is no Sightlore
+password, and we never receive your Apple or Google credentials. When you
+first sign in, your provider shares a stable account identifier, your **email
+address** (with Sign in with Apple you can choose Apple's private relay
+address instead of your real one), and — on first sign-in only — your **name**,
+which we use to prefill your profile. These are managed for us by AWS Cognito
+(Amazon's identity service). Each sign-in method is a separate Sightlore
+account: signing in with Apple and with Google creates two different accounts,
+and we cannot merge them.
 
 ### Profile and Tour DNA
 
@@ -115,14 +122,14 @@ provide the service to you:
 
 | Provider | What it does | What it receives |
 |---|---|---|
-| Amazon Web Services (Cognito, Lambda, S3, DynamoDB) | Sign-in, our backend, and storage of your profile, tours, and tour photos | Account email, profile, tour records, photos |
+| Amazon Web Services (Cognito, Lambda, S3, DynamoDB) | Sign-in, our backend, and storage of your profile, tours, and tour photos | Account email and name from your sign-in provider, profile, tour records, photos |
+| Apple / Google (your choice at sign-in) | Sign in with Apple / Google sign-in | Authentication happens with your provider; we receive the account identifier, email, and name it shares |
 | OpenAI | Vision and language models that identify what you photographed and write the commentary | Your tour photo, the tour coordinate, and your Tour DNA preferences |
 | Text-to-speech providers (Microsoft neural voices; ElevenLabs for premium voices where enabled) | Turn commentary text into narration audio | The commentary text only |
 | Apple (MapKit) | On-device landmark search | Handled by iOS under Apple's privacy terms; not routed through our servers |
 
 ## Data stored only on your device
 
-- Your **Face ID / Touch ID sign-in password** (if you enable it) is stored in the device keychain and never leaves your device.
 - A local copy of your profile and tour history is cached on the device for offline viewing.
 
 ## Data security
@@ -130,8 +137,9 @@ provide the service to you:
 We use reasonable technical and organizational safeguards to protect your
 information, including encryption in transit, access controls, and reputable
 cloud infrastructure (AWS). No method of transmission or storage is 100% secure,
-however, and we cannot guarantee absolute security. Please keep your account
-credentials confidential and contact us if you suspect unauthorized access.
+however, and we cannot guarantee absolute security. Your sign-in is protected
+by your Apple or Google account — please keep that account secure, and contact
+us if you suspect unauthorized access to Sightlore.
 
 ## International data transfers
 
