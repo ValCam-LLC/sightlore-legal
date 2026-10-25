@@ -6,7 +6,7 @@ render_with_liquid: false
 
 # Sightlore Privacy Policy
 
-**Effective date: October 24, 2026**
+**Effective date: October 25, 2026**
 
 Sightlore is an iOS travel app made by **ValCam LLC**. It gives you AI-narrated
 commentary about landmarks you photograph during a tour. This policy explains,
@@ -22,7 +22,7 @@ Questions or requests: **valcamllc@gmail.com** — ValCam LLC,
 - Sightlore is for adults: you must be 18 or older to use it.
 - We collect what the app needs to work: the account details your sign-in
   provider (Apple or Google) shares with us, the name, home city and tour
-  preferences you enter, the photos you tour with, where your tours happen, your
+  preferences you enter, the photos you tour with and where you took them, your
   tour history, your purchases, and crash reports.
 - **Before your first tour, the app asks your permission** to send your tour
   photos, location and preferences to the AI providers that write and narrate
@@ -32,6 +32,12 @@ Questions or requests: **valcamllc@gmail.com** — ValCam LLC,
   browsing never sends your location to our servers. (Opening a place's card
   asks our servers for a short Wikipedia summary of that place, using the
   place's name and map position — not yours.)
+- **Location is optional.** You can start a tour anywhere, with or without
+  choosing a place. With location on, each tour photo is sent with where it was
+  taken so the AI can work out what it shows. Your iPhone keeps those
+  coordinates with the Stop; our servers keep the place it was identified as
+  and its neighborhood or city, not its coordinates. With location off, tours
+  still work from the photo.
 - **No ads. No third-party analytics. No tracking. We never sell or "share"
   your data for advertising, and neither we nor our AI providers train AI
   models on your photos or tours.**
@@ -85,13 +91,21 @@ With your permission, the app uses your **precise location** while you are
 using it, for these purposes:
 
 1. **On-device discovery.** Finding Nearby Destinations, For You recommendations, Explore search, and suggesting your home city all use Apple's MapKit directly on your device. **This never sends your location to Sightlore's servers.** When you open a place's card, the app asks our servers for a short Wikipedia summary of that place, sending the place's name and map coordinates (not your own position).
-2. **Tours.** When you photograph something on a tour, the tour's place (the landmark you chose, or your position when you started the tour) is sent with the request so the AI can identify what you photographed, and it is stored with that tour in your tour history. If you have walked more than about 250 meters from where the tour started, your current position is sent instead, so the commentary is about where you actually are.
-3. **Imported photos.** If you pick a photo from your library, the app reads the location and date saved in that photo (if any). The photo's location is sent with the request in place of your position, the month and year it was taken are sent too, and a tour that starts with an imported photo is dated by it in your tour history.
+2. **Tours.** You can start a tour anywhere without choosing a place, or start one at a place you pick in Explore or Nearby. When you photograph something on a tour and your iPhone has a usable location reading, the app sends **where the photo was taken** with it, so the AI can work out what you photographed and tell you about it: your iPhone's position when you took the photo (precise if Precise Location is on; with it off, only approximate, and named by city rather than neighborhood), how accurate and how recent that reading is, and the neighborhood, city, region and country your iPhone works out from it using Apple Maps. If you started the tour at a place you picked, that place's name and map position are sent too, and while you are close to it, its position may be sent in place of yours. Our servers use this location to look up Wikipedia articles about what is nearby, and send it to OpenAI with your photo (see "How Sightlore uses AI").
+3. **Imported photos.** If you pick a photo from your library, the app reads the location and date saved in that photo (if any). For that photo, its own location — never your current position — is used the same way as a camera photo's location, and the month and year it was taken are sent too. A photo with no saved location is sent without one. A tour that starts with an imported photo is dated by it in your tour history.
+
+On your iPhone, each Stop keeps where its photo was taken. Our servers keep the
+place each Stop was identified as and its neighborhood or city, but **not the
+coordinates of where you took the photo** — see "Tours and tour history" and
+"Data stored only on your device".
 
 Precise geolocation is **sensitive personal information**. We use it only to
 provide the features above — never for advertising or to build a profile of
-your movements. Location access is optional (you can type or pick a place
-instead), you can switch it off at any time in iOS Settings, and the app never
+your movements. Location access is optional: without it, tours still work. The
+app then doesn't send where you are, and commentary is based on the photo
+itself (and on the place you picked, if you started the tour at one); an
+imported photo's own saved location is still used, as described above. You can
+switch location access off at any time in iOS Settings, and the app never
 accesses your location in the background.
 
 ### Photos
@@ -114,12 +128,19 @@ any permission needed to photograph other people.
 
 ### Tours and tour history
 
-For each tour we store its place name, coordinates and Apple Maps place
-identifier (when known), and for each **Stop**: the photo (and a thumbnail), the
-AI-written commentary, highlights, title and subject, the "background reading"
-sources the commentary drew on, the follow-up questions offered, and the
-answers to questions you chose to ask. You can delete any tour, or your whole
-account, in the app.
+For each tour we store its name. A tour you started at a place you picked is
+named after that place, and we also store the place's map coordinates and Apple
+Maps place identifier (when known); a tour started without choosing a place is
+named after the neighborhood or city of its first Stop, or its date. For each
+**Stop** we store: the photo (and a thumbnail), the AI-written commentary,
+highlights, title and subject, the place it was identified as (its Apple Maps
+name and identifier, when the app matches one or you pick one), the
+neighborhood or city and country where it was taken (when known), the
+"background reading" sources the commentary drew on, the follow-up questions
+offered, and the answers to questions you chose to ask. **We don't store the
+coordinates of where you took each photo** on our servers; they stay on your
+iPhone (see "Data stored only on your device"). You can delete any tour, or
+your whole account, in the app.
 
 ### Purchases and subscription
 
@@ -171,6 +192,7 @@ biometric identifiers, and no selling or renting of personal information.
 ## Data stored only on your device
 
 - **A local copy** of your profile and tour history, for offline use and speed, and of the tour in progress, so it can pick up again if iOS closes the app.
+- **Where each photo was taken** — each Stop keeps the map coordinates of where its photo was taken (rounded to about 11 meters), how accurate the reading was, when it was taken, and whether it came from your iPhone or from the photo itself. These coordinates are not saved with your tours on our servers, so they stay on the iPhone you toured with and don't sync to your other devices; they are deleted along with the tour or your account.
 - **Recently Deleted** — a tour you delete is removed from our servers and your other devices at once, but the device you deleted it on keeps a restorable copy for **30 days**, then removes it. Cleared when you sign out or delete your account.
 - **Narration audio cache** — narration clips generated for you are kept in a size-limited cache on your device so replays (on the tour or from Tour History) don't generate them again; clips in it play even without a subscription. We never store narration audio on our servers. Cleared when you sign out or delete your account.
 - **Saved places** — places you save for later stay on your device, kept separately for each account signed in on it; they are never sent to us, and they are erased when you delete your account.
@@ -188,13 +210,13 @@ allow it again.
 
 | Provider | What it does | What it receives |
 |---|---|---|
-| OpenAI | Identifies what you photographed and writes the commentary, highlights and follow-up answers | Your tour photo; the tour's place name and coordinates, or where the photo was taken (on a walking tour, or for an imported photo, with the month and year it was taken); your first name; your home city; your Tour DNA preferences; the names and short summaries of your earlier Stops on the tour; and, for a follow-up, the commentary you heard, earlier answers at that Stop and the question you chose |
+| OpenAI | Identifies what you photographed and writes the commentary, highlights and follow-up answers | Your tour photo; where it was taken, when location is on (its map coordinates, how accurate and recent they are, and its neighborhood, city, region and country) — for an imported photo, the location saved in it (if any) and the month and year it was taken; the name and map position of any place you picked (to start the tour at, or to correct a Stop); your first name; your home city; your Tour DNA preferences; the names, short summaries and neighborhoods or cities of your earlier Stops on the tour; and, for a follow-up, that Stop's location details, the commentary you heard, earlier answers at that Stop and the question you chose |
 | ElevenLabs | Turns the commentary and answers into spoken narration with the voice you chose | The text to be spoken (which may include your first name) and the voice ID |
 
 - **No training.** Under their API terms, OpenAI and ElevenLabs do not use data sent through their APIs to train their models, and we don't permit them to. **We don't use your photos or tours to train any AI model.**
 - **Provider retention.** OpenAI may keep API inputs and outputs for up to **30 days** to monitor for abuse, then deletes them. ElevenLabs processes the text to generate audio and doesn't keep it for training.
 - **Synthetic voice.** Narration is an **AI-generated, synthetic voice** — not a recording of a real person — and the app labels AI-generated content.
-- **Background reading.** To ground commentary in facts, and for the short place summaries on place cards, our servers look up the place's name and coordinates on **Wikipedia (Wikimedia Foundation)** — on a walking tour, the coordinates of where you took the photo. These lookups come from our servers and carry no account details, name, photo or other information about you.
+- **Background reading.** To ground commentary in facts, and for the short place summaries on place cards, our servers search **Wikipedia (Wikimedia Foundation)** for articles about a place or about what you photographed. A search sends a place name or subject and map coordinates — for a tour photo, where it was taken (or the place you picked), to find articles about what is nearby. These lookups come from our servers and carry nothing else about you: no account details, name or photo.
 - **Accuracy.** AI-generated content can be wrong. Don't rely on it for safety, navigation or access decisions, and report mistakes with Report this commentary.
 
 ## How we use your information
@@ -224,11 +246,11 @@ the AI providers described above once you allow it, and where the law requires.
 | Recipient | Why | What it receives |
 |---|---|---|
 | Amazon Web Services (Cognito, Lambda, CloudFront, S3, DynamoDB, CloudWatch) | Sign-in, our backend, storage, and logs | Account details from your sign-in provider, profile, consent records, tours and photos, purchase records, diagnostics, reports, request logs |
-| Apple | Sign in with Apple, App Store purchases and notifications, on-device Apple Maps search, crash reporting, and the App Store rating prompt | Handled under Apple's privacy policy; Apple Maps searches run on your device, not through our servers, and any rating or review you leave goes to Apple |
+| Apple | Sign in with Apple, App Store purchases and notifications, on-device Apple Maps search and place lookups (including naming the neighborhood or city where you took a photo), crash reporting, and the App Store rating prompt | Handled under Apple's privacy policy; Apple Maps searches and lookups run from your device, not through our servers, and any rating or review you leave goes to Apple |
 | Google | Google sign-in, if you choose it | Authentication happens with Google; we receive the account identifier, email and name it shares |
-| OpenAI | Commentary (see "How Sightlore uses AI") | Photo, place and position, first name, home city, Tour DNA, earlier Stop names and summaries |
+| OpenAI | Commentary (see "How Sightlore uses AI") | Photo and where it was taken (coordinates, accuracy, neighborhood and city), places you pick, first name, home city, Tour DNA, earlier Stop names, summaries and neighborhoods |
 | ElevenLabs | Narration audio (see "How Sightlore uses AI") | The text to be spoken and the voice ID |
-| Wikimedia Foundation (Wikipedia) | Background facts and place previews | A place name and coordinates (on a walking tour, where you took the photo), from our servers, with no account details |
+| Wikimedia Foundation (Wikipedia) | Background facts and place previews | A place name or subject and map coordinates (for a tour photo, where it was taken or the place you picked), from our servers, with no account details |
 | Authorities or others when required | Legal compliance and protecting rights and safety | Only what the law requires, or what is needed to protect people's safety |
 | A buyer or successor | If ValCam LLC is involved in a merger, acquisition or sale of assets | Your information, under this policy's protections |
 
@@ -338,7 +360,7 @@ periods in "How long we keep it":
 | Personal records | Name, home city | AWS; OpenAI (first name, home city) |
 | Commercial information | Subscription and purchase records | AWS; Apple |
 | Internet or network activity | Request logs, crash and performance diagnostics | AWS |
-| Geolocation (sensitive) | Tour place and position, photo locations | AWS; OpenAI; Wikimedia (coordinates only, no account details) |
+| Geolocation (sensitive) | Where each tour photo was taken (its coordinates are stored only on your device), the place and neighborhood or city each Stop was identified as, places you pick | AWS; OpenAI; Wikimedia (place names and coordinates only, no account details); Apple (Apple Maps lookups from your device) |
 | Audio, electronic, visual or similar | Tour photos you take or import | AWS; OpenAI |
 | Inferences | Your Tour DNA preferences | AWS; OpenAI |
 | Protected classification characteristics | Age range — only profiles created before October 2026, deleted as described in "Profile and Tour DNA" | AWS |

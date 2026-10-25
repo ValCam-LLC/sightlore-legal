@@ -6,7 +6,7 @@ render_with_liquid: false
 
 # Sightlore Terms of Service
 
-**Effective date: October 24, 2026**
+**Effective date: October 25, 2026**
 
 These terms are an agreement between you and **ValCam LLC** ("we", "us", "our")
 for your use of the **Sightlore** iOS app and its backend services (the
